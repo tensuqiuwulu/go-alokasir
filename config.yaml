@@ -1,0 +1,18 @@
+app:
+  name: "go-alokasir"
+  port: 3000
+  env: "development"
+  debug: true
+pgsql:
+  host: "localhost"
+  port: 5432
+  dbname: "alokasir"
+  username: "tensuqiuwulu"
+  password: ""
+  sslmode: "disable"
+  max_idle_connections: 5
+  max_open_connections: 10
+  timezoneconf:
+    timezone: Asia/Makassar
+jwt:
+  secret: "secret"
